@@ -21,7 +21,7 @@ export default function Home() {
         <Skills/>
 
         {/* Contact */}
-        <section id="contact" className="bg-white py-16 px-8">
+        <section id="contact" className="bg-gray-900 py-16 px-8">
           <h2 className="text-3xl font-bold text-center mb-8">Contact</h2>
           <div className="text-center">
             <p className="text-lg mb-4">Des questions ? N&rsquo;hésitez pas à me contacter !</p>
@@ -30,7 +30,7 @@ export default function Home() {
         </section>
 
         {/* Footer */}
-        <footer className="bg-gray-900 text-white p-4 text-center">
+        <footer className="bg-gray-950 text-white p-4 text-center">
           <p>&copy; {new Date().getFullYear()} Nourry Nicolas.</p>
         </footer>
       </div>

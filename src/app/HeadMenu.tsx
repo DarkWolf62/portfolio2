@@ -6,7 +6,7 @@ export default function HeadMenu() {
     const [isOpen, setIsOpen] = useState(false);
 
     return (
-        <header className="bg-gray-900 text-white p-4 flex justify-between items-center fixed top-0 left-0 w-full z-10">
+        <header className="bg-gray-950 text-white p-4 flex justify-between items-center fixed top-0 left-0 w-full z-10">
     <h1 className="text-xl font-bold">Nourry Nicolas</h1>
     <button
         className="block md:hidden"
