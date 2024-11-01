@@ -19,3 +19,11 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+#about {
+  background-image: url("/portfolio2/about.webp");
+  background-size: cover;
+  background-position: center;
+
+
+}
