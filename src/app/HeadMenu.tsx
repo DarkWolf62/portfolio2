@@ -22,13 +22,13 @@ export default function HeadMenu() {
         <a href="#skills" className="block md:inline-block px-4 py-2 hover:underline">Compétences</a>
         <a href="#contact" className="block md:inline-block px-4 py-2 hover:underline">Contact</a>
         <div className="md:hidden mt-4">
-            <a href="https://github.com/yourusername" className="block px-4 py-2 hover:underline">GitHub</a>
-            <a href="https://gitlab.com/yourusername" className="block px-4 py-2 hover:underline">GitLab</a>
+            <a href="https://github.com/DarkWolf62" className="block px-4 py-2 hover:underline">GitHub</a>
+            <a href="https://gitlab.com/Nicolas_nourry" className="block px-4 py-2 hover:underline">GitLab</a>
         </div>
     </nav>
     <div className="hidden md:block">
-        <a href="https://github.com/yourusername" className="px-2 hover:underline">GitHub</a>
-        <a href="https://gitlab.com/yourusername" className="px-2 hover:underline">GitLab</a>
+        <a href="https://github.com/DarkWolf62" className="px-2 hover:underline">GitHub</a>
+        <a href="https://gitlab.com/Nicolas_nourry" className="px-2 hover:underline">GitLab</a>
     </div>
 </header>
     );

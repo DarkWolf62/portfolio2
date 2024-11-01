@@ -5,7 +5,7 @@ export default function Projet() {
     return (
         <section id="projects" className="bg-gray-900 py-16 px-8">
             <h2 className="text-3xl font-bold text-center text-white mb-8">Projets</h2>
-            <div className="flex flex-wrap justify-center space-x-0 md:space-x-8 overflow-x-auto">
+            <div className="flex flex-wrap justify-center space-x-0 md:space-x-8 ">
                 <div className="bg-gray-800 p-4 rounded-lg shadow-md flex-shrink-0 border border-gray-700 w-full md:w-1/2 lg:w-1/3 mb-8">
                     <Image src="/portfolio2/flatcraft.webp" alt="Projet 1" width={1200} height={500} loading="lazy" className="rounded"/>
                     <h3 className="text-xl font-semibold mt-4 text-white">FlatCraft</h3>
