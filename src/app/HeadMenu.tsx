@@ -16,7 +16,7 @@ export default function HeadMenu() {
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16m-7 6h7"></path>
         </svg>
     </button>
-    <nav className={`fixed top-0 left-0 h-full bg-gray-800 text-white p-8 transform ${isOpen ? 'translate-x-0' : '-translate-x-full'} transition-transform duration-300 ease-in-out md:relative md:translate-x-0 md:flex md:p-0`}>
+    <nav className={`fixed top-0 left-0 h-full bg-gray-950 text-white p-8 transform ${isOpen ? 'translate-x-0' : '-translate-x-full'} transition-transform duration-300 ease-in-out md:relative md:translate-x-0 md:flex md:p-0`}>
         <a href="#about" className="block md:inline-block px-4 py-2 hover:underline">À propos</a>
         <a href="#projects" className="block md:inline-block px-4 py-2 hover:underline">Projets</a>
         <a href="#skills" className="block md:inline-block px-4 py-2 hover:underline">Compétences</a>
